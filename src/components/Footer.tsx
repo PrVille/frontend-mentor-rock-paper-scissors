@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="flex flex-col px-4 pt-6 pb-4 gap-2">
           <a
             className="px-6 py-3 text-white bg-[#3e54a3] hover:bg-[#29376b] rounded-full text-center uppercase italic font-bold space tracking-widest text-sm"
-            href="https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29"
+            href="https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -20,7 +20,7 @@ const Footer = () => {
 
           <a
             className="px-6 py-3 text-black bg-[#d9d9d9] hover:bg-[#B3B3B3] rounded-full text-center uppercase italic font-bold space tracking-widest text-sm"
-            href="https://github.com/PrVille/frontend-mentor-calculator-app"
+            href="https://github.com/PrVille/frontend-mentor-rock-paper-scissors"
             target="_blank"
             rel="noopener noreferrer"
           >

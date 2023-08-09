@@ -25,27 +25,31 @@ Users should be able to:
 - Maintain the state of the score after refreshing the browser _(optional)_
 - **Bonus**: Play Rock, Paper, Scissors, Lizard, Spock against the computer _(optional)_
 
+Not sure what Rock, Paper, Scissors, Lizard, Spock is? [Check out this clip from The Big Bang Theory](https://www.youtube.com/watch?v=iSHPVCBsnLw).
+
 ### Screenshots
 
 <div align="center">
-  <img src="./design/desktop-design-theme-1.jpg" width="49%" alt="desktop-design-theme-1" />
-  <img src="./design/active-states-theme-1.jpg" width="49%" alt="desktop-design-theme-1" /> 
+  <img src="./design/bonus/desktop-step-1-bonus.jpg" width="100%" alt="desktop-step-1-bonus.jpg" />
+  <img src="./design/bonus/desktop-rules-modal-bonus.jpg" width="100%" alt="desktop-rules-modal-bonus" /> 
 
-  <img src="./design/desktop-design-theme-2.jpg" width="49%" alt="desktop-design-theme-2" />
-  <img src="./design/active-states-theme-2.jpg" width="49%" alt="desktop-design-theme-2" /> 
+  <img src="./design/bonus/desktop-step-2-bonus.jpg" width="49%" alt="desktop-step-2-bonus.jpg" />
+  <img src="./design/bonus/desktop-step-3-bonus.jpg" width="49%" alt="desktop-step-3-bonus.jpg" />
+  <img src="./design/bonus/desktop-step-4-bonus.jpg" width="49%" alt="desktop-step-4-bonus.jpg" />
+  <img src="./design/original/desktop-step-4-win.jpg" width="49%" alt="desktop-step-4-win.jpg" />
 
-  <img src="./design/desktop-design-theme-3.jpg" width="49%" alt="desktop-design-theme-3" />
-  <img src="./design/active-states-theme-3.jpg" width="49%" alt="desktop-design-theme-3" /> 
-
-  <img src="./design/mobile-design-theme-1.jpg" width="32%" alt="mobile-design-theme-1" />
-  <img src="./design/mobile-design-theme-2.jpg" width="32%" alt="mobile-design-theme-2" />
-  <img src="./design/mobile-design-theme-3.jpg" width="32%" alt="mobile-design-theme-3" />
+  <img src="./design/bonus/mobile-rules-modal-bonus.jpg" width="32%" alt="mobile-rules-modal-bonus.jpg" />
+  <img src="./design/bonus/mobile-step-1-bonus.jpg" width="32%" alt="mobile-step-1-bonus.jpg" />
+  <img src="./design/bonus/mobile-step-2-bonus.jpg" width="32%" alt="mobile-step-2-bonus.jpg" />
+  <img src="./design/bonus/mobile-step-3-bonus.jpg" width="32%" alt="mobile-step-3-bonus.jpg" />
+  <img src="./design/bonus/mobile-step-4-bonus.jpg" width="32%" alt="mobile-step-4-bonus.jpg" />
+  <img src="./design/original/mobile-step-4-lose.jpg" width="32%" alt="mobile-step-4-lose.jpg" />
 </div>
 
 ### Links
 
 - Solution URL: []()
-- Live Site URL: []()
+- Live Site URL: [https://frontend-mentor-rock-paper-scissors-self.vercel.app/](https://frontend-mentor-rock-paper-scissors-self.vercel.app/)
 - All Solutions URL: [https://frontend-mentor-solutions-mu.vercel.app/](https://frontend-mentor-solutions-mu.vercel.app/)
 
 ## My process
