@@ -37,13 +37,17 @@ const Game = ({ playerChoice, houseChoice, result, resetGame }: GameProps) => {
             <Rings>
               <Choice large choice={playerChoice} />
             </Rings>
-          ) : (
+          ) : houseChoice !== null ? (
             <Choice large choice={playerChoice} />
+          ) : (
+            <div className="animate-pulse-fast"> 
+              <Choice large choice={playerChoice} />
+            </div>
           )}
         </div>
 
         {result !== null && (
-          <div className="flex flex-col gap-5 items-center justify-center">
+          <div className="flex flex-col gap-5 items-center justify-center mt-16">
             <h1 className="uppercase text-5xl text-white">
               {result === types.Result.player
                 ? "you win"
@@ -52,7 +56,7 @@ const Game = ({ playerChoice, houseChoice, result, resetGame }: GameProps) => {
                 : "it's a tie"}
             </h1>
             <button
-              className="uppercase px-10 py-3 bg-white tracking-widest text-darkText rounded-lg shadow-md"
+              className="uppercase px-10 py-3 bg-white tracking-widest text-darkText rounded-lg shadow-md hover:brightness-75 transition-all"
               onClick={resetGame}
             >
               play again
@@ -74,7 +78,7 @@ const Game = ({ playerChoice, houseChoice, result, resetGame }: GameProps) => {
           ) : houseChoice !== null ? (
             <Choice large choice={houseChoice} />
           ) : (
-            <div className="w-[290px] h-[290px] flex items-center justify-center animate-pulse">
+            <div className="w-[290px] h-[290px] flex items-center justify-center animate-pulse-fast">
               <div className="rounded-full w-[220px] h-[220px] bg-[#172240]"></div>
             </div>
           )}

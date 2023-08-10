@@ -8,7 +8,7 @@ const Rules = () => {
   return (
     <>
       <button
-        className="border-2 border-headerOutline fixed bottom-8 right-8 tracking-widest uppercase px-9 py-3 rounded-lg text-white"
+        className="border-2 border-headerOutline fixed bottom-8 right-8 tracking-widest uppercase px-9 py-3 rounded-lg text-white hover:brightness-75 transition-all"
         onClick={() => setModalOpen(true)}
       >
         rules
@@ -18,7 +18,10 @@ const Rules = () => {
           <div className="bg-white px-8 pt-8 pb-12 rounded-xl flex flex-col gap-4">
             <div className="flex justify-between items-center">
               <h1 className="text-4xl text-darkText font-bold">RULES</h1>
-              <button onClick={() => setModalOpen(false)}>
+              <button
+                className="hover:brightness-75 transition-all"
+                onClick={() => setModalOpen(false)}
+              >
                 <img src={iconClose} />
               </button>
             </div>

@@ -68,6 +68,7 @@ Not sure what Rock, Paper, Scissors, Lizard, Spock is? [Check out this clip from
 - [Window: localStorage property](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 - [radial-gradient()](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/radial-gradient)
 - [box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+- [Animation](https://tailwindcss.com/docs/animation)
  
 ## Acknowledgements
 

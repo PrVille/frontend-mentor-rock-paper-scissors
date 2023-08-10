@@ -16,7 +16,7 @@ const App = () => {
     if (playerChoice) {
       const choices = Object.values(Choice)
       const houseChoice = choices[Math.floor(Math.random() * choices.length)]
-      setTimeout(() => setHouseChoice(houseChoice), 2000)
+      setTimeout(() => setHouseChoice(houseChoice), 3000)
     }
   }, [playerChoice])
 
@@ -31,7 +31,7 @@ const App = () => {
         if (result === Result.house) {
           decrementScore()
         }
-      }, 1000)
+      }, 2000)
     }
   }, [houseChoice, playerChoice])
 
