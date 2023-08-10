@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="bg-white fixed group bottom-6 right-6 w-12 h-12 rounded-full hover:w-auto hover:h-auto hover:rounded-xl shadow-lg">
+    <div className="bg-white fixed group bottom-6 left-6 w-12 h-12 rounded-full hover:w-auto hover:h-auto hover:rounded-xl shadow-lg">
       <div className="flex group-hover:hidden border border-white rounded-full">
         <img
           src="./me.png"
