@@ -63,7 +63,7 @@ const App = () => {
 
   return (
     <>
-      <main className="min-h-screen w-full flex flex-col bg-gradient font-barlowSemiCondensed">
+      <main className="min-h-screen w-full flex flex-col bg-gradient font-barlowSemiCondensed overflow-hidden">
         <Scoreboard score={score} />
         {playerChoice ? (
           <Game
