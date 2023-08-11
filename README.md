@@ -48,7 +48,7 @@ Not sure what Rock, Paper, Scissors, Lizard, Spock is? [Check out this clip from
 
 ### Links
 
-- Solution URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/rock-paper-scissors-lizard-spock-game-using-ts-react-tailwind-2xzyRKY4uh](https://www.frontendmentor.io/solutions/rock-paper-scissors-lizard-spock-game-using-ts-react-tailwind-2xzyRKY4uh)
 - Live Site URL: [https://frontend-mentor-rock-paper-scissors-self.vercel.app/](https://frontend-mentor-rock-paper-scissors-self.vercel.app/)
 - All Solutions URL: [https://frontend-mentor-solutions-mu.vercel.app/](https://frontend-mentor-solutions-mu.vercel.app/)
 
@@ -61,6 +61,7 @@ Not sure what Rock, Paper, Scissors, Lizard, Spock is? [Check out this clip from
   <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
   <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E" />  
+  <img src="https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white" />
 </p>
 
 ### Useful resources
