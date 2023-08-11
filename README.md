@@ -1,6 +1,6 @@
 # Frontend Mentor - Rock, Paper, Scissors solution
 
-This is a solution to the [Rock, Paper, Scissors challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Rock, Paper, Scissors challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -31,7 +31,7 @@ Not sure what Rock, Paper, Scissors, Lizard, Spock is? [Check out this clip from
 
 <div align="center">
   <img src="./design/bonus/desktop-step-1-bonus.jpg" width="100%" alt="desktop-step-1-bonus.jpg" />
-  <img src="./design/bonus/desktop-rules-modal-bonus.jpg" width="100%" alt="desktop-rules-modal-bonus" /> 
+  <img src="./design/bonus/desktop-rules-modal-bonus.jpg" width="100%" alt="desktop-rules-modal-bonus" />
 
   <img src="./design/bonus/desktop-step-2-bonus.jpg" width="49%" alt="desktop-step-2-bonus.jpg" />
   <img src="./design/bonus/desktop-step-3-bonus.jpg" width="49%" alt="desktop-step-3-bonus.jpg" />
@@ -69,7 +69,8 @@ Not sure what Rock, Paper, Scissors, Lizard, Spock is? [Check out this clip from
 - [radial-gradient()](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/radial-gradient)
 - [box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
 - [Animation](https://tailwindcss.com/docs/animation)
- 
+- [Color Picker](https://imagecolorpicker.com/)
+
 ## Acknowledgements
 
 - Challenge was provided by [Frontend Mentor](https://www.frontendmentor.io)

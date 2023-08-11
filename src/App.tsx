@@ -5,6 +5,7 @@ import Selection from "./components/Selection"
 import Rules from "./components/Rules"
 import { Choice, Result } from "./types"
 import Game from "./components/Game"
+import { determineResult } from "./utils"
 
 const App = () => {
   const [score, setScore] = useState(0)
@@ -31,7 +32,7 @@ const App = () => {
         if (result === Result.house) {
           decrementScore()
         }
-      }, 2000)
+      }, 1000)
     }
   }, [houseChoice, playerChoice])
 
@@ -51,26 +52,6 @@ const App = () => {
     setPlayerChoice(null)
     setHouseChoice(null)
     setResult(null)
-  }
-
-  const determineResult = (player: Choice, house: Choice): Result => {
-    if (player === house) return Result.tie
-    if (
-      (player === Choice.rock &&
-        (house === Choice.scissors || house === Choice.lizard)) ||
-      (player === Choice.paper &&
-        (house === Choice.rock || house === Choice.spock)) ||
-      (player === Choice.scissors &&
-        (house === Choice.paper || house === Choice.lizard)) ||
-      (player === Choice.lizard &&
-        (house === Choice.spock || house === Choice.paper)) ||
-      (player === Choice.spock &&
-        (house === Choice.scissors || house === Choice.rock))
-    ) {
-      return Result.player
-    } else {
-      return Result.house
-    }
   }
 
   return (
