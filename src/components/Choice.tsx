@@ -13,15 +13,15 @@ type ChoiceProps = {
 
 const colorMap = {
   [types.Choice.scissors]:
-    "from-scissorsGradientFrom to-scissorsGradientTo shadow-[#c86c19]",
+    "from-scissorsGradientFrom to-scissorsGradientTo sm:shadow-[#c86c19] shadow-[#c86c19]",
   [types.Choice.rock]:
-    "from-rockGradientFrom to-rockGradientTo shadow-[#a01632]",
+    "from-rockGradientFrom to-rockGradientTo sm:shadow-[#a01632] shadow-[#a01632]",
   [types.Choice.paper]:
-    "from-paperGradientFrom to-paperGradientTo shadow-[#2943c3]",
+    "from-paperGradientFrom to-paperGradientTo sm:shadow-[#2943c3] shadow-[#2943c3]",
   [types.Choice.lizard]:
-    "from-lizardGradientFrom to-lizardGradientTo shadow-[#6136ae]",
+    "from-lizardGradientFrom to-lizardGradientTo sm:shadow-[#6136ae] shadow-[#6136ae]",
   [types.Choice.spock]:
-    "from-spockGradientFrom to-spockGradientTo shadow-[#2e8fab]",
+    "from-spockGradientFrom to-spockGradientTo sm:shadow-[#2e8fab] shadow-[#2e8fab]",
 }
 
 const imageMap = {
@@ -39,15 +39,15 @@ const Choice = ({ choice, large = false }: ChoiceProps) => {
         "relative bg-gradient-to-t rounded-full flex items-center justify-center",
         colorMap[choice],
         large
-          ? "w-[290px] h-[290px] shadow-[0px_12px_0px_0px]"
+          ? "w-[130px] sm:w-[290px] h-[130px] sm:h-[290px] shadow-[0px_6px_0px_0px] sm:shadow-[0px_12px_0px_0px]"
           : "w-[145px] h-[145px] shadow-[0px_6px_0px_0px]"
       )}
     >
       <span
         className={classNames(
-          "absolute bg-white rounded-full shadow-black/20",
+          "absolute bg-white rounded-full shadow-black/20 sm:shadow-black/20",
           large
-            ? "w-[220px] h-[220px] shadow-[inset_0px_10px_0px_0px]"
+            ? "w-[100px] sm:w-[220px] h-[100px] sm:h-[220px] shadow-[inset_0px_4px_0px_0px] sm:shadow-[inset_0px_10px_0px_0px]"
             : "w-[110px] h-[110px] shadow-[inset_0px_4px_0px_0px]"
         )}
       />

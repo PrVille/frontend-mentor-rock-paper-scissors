@@ -8,7 +8,7 @@ type SelectionProps = {
 
 const Selection = ({ handleChoice }: SelectionProps) => {
   return (
-    <div className="relative mx-auto mt-24 sm:my-auto inline-flex items-center justify-center scale-[0.7] sm:scale-100">
+    <div className="relative mx-auto mt-24 sm:mt-32 inline-flex items-center justify-center scale-[0.7] sm:scale-100">
       <img src={bgPentagon} />
       <button
         className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 hover:brightness-75 transition-all"
