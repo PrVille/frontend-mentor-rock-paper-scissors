@@ -8,7 +8,7 @@ const Rules = () => {
   return (
     <>
       <button
-        className="border-2 border-headerOutline fixed bottom-8 right-8 tracking-widest uppercase px-9 py-3 sm:rounded-lg text-white hover:brightness-75 transition-all"
+        className="border-2 border-headerOutline fixed bottom-14 right-1/2 translate-x-1/2 sm:translate-x-0 sm:bottom-8 sm:right-8 tracking-widest uppercase px-10 py-1.5 sm:py-3 rounded-lg text-white hover:brightness-75 transition-all"
         onClick={() => setModalOpen(true)}
       >
         rules
