@@ -8,7 +8,7 @@ import Game from "./components/Game"
 import { determineResult } from "./utils"
 
 const App = () => {
-  const [score, setScore] = useState(0)
+  const [score, setScore] = useState(Number(localStorage.getItem("score")) || 0)
   const [playerChoice, setPlayerChoice] = useState<Choice | null>(null)
   const [houseChoice, setHouseChoice] = useState<Choice | null>(null)
   const [result, setResult] = useState<Result | null>(null)
@@ -37,11 +37,18 @@ const App = () => {
   }, [houseChoice, playerChoice])
 
   const incrementScore = () => {
-    setScore((prevScore) => prevScore + 1)
+    setScore((prevScore) => {
+      localStorage.setItem("score", (prevScore + 1).toString())
+      return prevScore + 1
+    })
   }
 
   const decrementScore = () => {
-    setScore((prevScore) => (prevScore > 0 ? prevScore - 1 : 0))
+    setScore((prevScore) => {
+      const newScore = prevScore > 0 ? prevScore - 1 : 0
+      localStorage.setItem("score", newScore.toString())
+      return newScore
+    })
   }
 
   const handleChoice = async (choice: Choice) => {
